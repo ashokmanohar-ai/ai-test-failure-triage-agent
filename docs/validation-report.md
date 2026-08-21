@@ -1,6 +1,7 @@
 # Validation report
 
-Validated on 21 August 2026 with Python 3.12.13 and Node.js 24.19.0.
+Validated locally and in GitHub Actions on 21 August 2026. Local tooling used
+Python 3.12.13 and Node.js 24.19.0; CI used Python 3.12 and Node.js 22.
 
 | Check | Result | Evidence |
 |---|---|---|
@@ -17,9 +18,10 @@ Validated on 21 August 2026 with Python 3.12.13 and Node.js 24.19.0.
 | Node ESLint | PASS | controlled demo source |
 | TypeScript type check | PASS | `tsc --noEmit` |
 | Playwright test discovery | PASS | 1 Chromium controlled-flow test discovered |
-| Playwright browser execution | NOT RUN LOCALLY | Chromium binary unavailable in workspace; CI installs it |
-| Docker build/Compose health | NOT RUN LOCALLY | Docker runtime unavailable in workspace; CI builds image |
-| GitHub Actions execution | PENDING | Runs on the published draft PR |
+| Playwright browser execution | PASS | GitHub CI run #2; Chromium baseline passed |
+| Docker image build | PASS | GitHub CI run #2 |
+| GitHub Actions execution | PASS | Python, Playwright and Docker jobs green |
+| Docker Compose runtime health | NOT RUN | CI validates the image build; Compose runtime remains an operator check |
 
 The 100% mock result measures deterministic controlled fixtures and framework
 orchestration only; it is not evidence of real-LLM or production accuracy.
@@ -41,7 +43,6 @@ orchestration only; it is not evidence of real-LLM or production accuracy.
 
 ## Delivery status
 
-Ready for draft-PR review and CI validation. Merge should occur only after the
-GitHub Python, Playwright and Docker jobs are green. No external-provider quality
-claim has been made.
-
+Ready for review. GitHub Python, Playwright and Docker jobs are green. Docker
+Compose runtime health and optional external providers remain deployment-specific
+operator checks. No external-provider quality claim has been made.
