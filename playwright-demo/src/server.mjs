@@ -29,9 +29,8 @@ const server = createServer((request, response) => {
     if (profile === 'slow_endpoint') setTimeout(respond, 2000); else respond();
     return;
   }
-  response.writeHead(200, { 'content-type': 'text/html' }); response.end(page());
+  response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' }); response.end(page());
 });
 
 server.listen(4173, '127.0.0.1');
 for (const signal of ['SIGTERM', 'SIGINT']) process.on(signal, () => server.close(() => process.exit(0)));
-
