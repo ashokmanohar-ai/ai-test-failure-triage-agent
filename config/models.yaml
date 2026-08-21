@@ -1,0 +1,10 @@
+default_provider: mock
+providers:
+  mock:
+    model: mock-evidence-v1
+    external_credentials: false
+  azure_openai:
+    environment_variables: [AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_API_KEY, AZURE_OPENAI_DEPLOYMENT]
+  openai:
+    environment_variables: [OPENAI_API_KEY, OPENAI_BASE_URL]
+

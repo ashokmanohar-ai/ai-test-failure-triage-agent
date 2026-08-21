@@ -1,0 +1,29 @@
+{
+  "failure": {
+    "failure_id": "FAIL-DATA-07",
+    "test_id": "test-DATA-07",
+    "test_name": "Controlled scenario DATA-07",
+    "suite": "controlled-failures",
+    "status": "FAILED",
+    "error_message": "Invalid account state: account expired for fixture 7",
+    "stack_trace": null,
+    "duration_ms": 5000,
+    "retry_count": 0,
+    "browser": "chromium",
+    "project": null,
+    "environment": "local",
+    "commit_sha": null,
+    "timestamp": "2026-08-21T10:32:00Z"
+  },
+  "screenshot_paths": [],
+  "trace_path": null,
+  "console_errors": [],
+  "network_failures": [],
+  "page_url": null,
+  "environment_health": [],
+  "recent_changes": [],
+  "historical_failures": [],
+  "deterministic_findings": [],
+  "timeline": [],
+  "metadata": {}
+}

@@ -1,0 +1,39 @@
+{
+  "failure": {
+    "failure_id": "FAIL-AUTH-04",
+    "test_id": "test-AUTH-04",
+    "test_name": "Controlled scenario AUTH-04",
+    "suite": "controlled-failures",
+    "status": "FAILED",
+    "error_message": "Stored auth state expired token; redirected to login",
+    "stack_trace": null,
+    "duration_ms": 5000,
+    "retry_count": 0,
+    "browser": "chromium",
+    "project": null,
+    "environment": "local",
+    "commit_sha": null,
+    "timestamp": "2026-08-21T10:32:00Z"
+  },
+  "screenshot_paths": [],
+  "trace_path": null,
+  "console_errors": [],
+  "network_failures": [
+    {
+      "method": "GET",
+      "url": "http://demo/api/session",
+      "status_code": 401,
+      "failure_reason": null,
+      "duration_ms": null,
+      "correlation_id": null,
+      "timestamp": null
+    }
+  ],
+  "page_url": null,
+  "environment_health": [],
+  "recent_changes": [],
+  "historical_failures": [],
+  "deterministic_findings": [],
+  "timeline": [],
+  "metadata": {}
+}

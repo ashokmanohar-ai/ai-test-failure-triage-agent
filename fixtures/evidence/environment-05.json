@@ -1,0 +1,38 @@
+{
+  "failure": {
+    "failure_id": "FAIL-ENV-05",
+    "test_id": "test-ENV-05",
+    "test_name": "Controlled scenario ENV-05",
+    "suite": "controlled-failures",
+    "status": "FAILED",
+    "error_message": "Application was unreachable",
+    "stack_trace": null,
+    "duration_ms": 5000,
+    "retry_count": 0,
+    "browser": "chromium",
+    "project": null,
+    "environment": "local",
+    "commit_sha": null,
+    "timestamp": "2026-08-21T10:32:00Z"
+  },
+  "screenshot_paths": [],
+  "trace_path": null,
+  "console_errors": [],
+  "network_failures": [],
+  "page_url": null,
+  "environment_health": [
+    {
+      "name": "application-5",
+      "url": null,
+      "status": "DOWN",
+      "latency_ms": null,
+      "detail": null,
+      "timestamp": null
+    }
+  ],
+  "recent_changes": [],
+  "historical_failures": [],
+  "deterministic_findings": [],
+  "timeline": [],
+  "metadata": {}
+}
