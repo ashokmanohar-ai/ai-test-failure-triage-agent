@@ -1,0 +1,54 @@
+{
+  "failure": {
+    "failure_id": "FAIL-FLAKE-01",
+    "test_id": "test-FLAKE-01",
+    "test_name": "Controlled scenario FLAKE-01",
+    "suite": "controlled-failures",
+    "status": "FAILED",
+    "error_message": "Intermittent render failure",
+    "stack_trace": null,
+    "duration_ms": 5000,
+    "retry_count": 1,
+    "browser": "chromium",
+    "project": null,
+    "environment": "local",
+    "commit_sha": null,
+    "timestamp": "2026-08-21T10:32:00Z"
+  },
+  "screenshot_paths": [],
+  "trace_path": null,
+  "console_errors": [],
+  "network_failures": [],
+  "page_url": null,
+  "environment_health": [],
+  "recent_changes": [],
+  "historical_failures": [
+    {
+      "signature": "sig-1-0",
+      "classification": "FLAKY_TEST",
+      "root_cause": "render",
+      "occurrence_count": 2,
+      "first_seen": null,
+      "last_seen": null,
+      "similarity": 0.9,
+      "retry_recovered": true,
+      "same_commit": true,
+      "same_environment": true
+    },
+    {
+      "signature": "sig-1-1",
+      "classification": "FLAKY_TEST",
+      "root_cause": "timing",
+      "occurrence_count": 2,
+      "first_seen": null,
+      "last_seen": null,
+      "similarity": 0.9,
+      "retry_recovered": true,
+      "same_commit": true,
+      "same_environment": true
+    }
+  ],
+  "deterministic_findings": [],
+  "timeline": [],
+  "metadata": {}
+}

@@ -1,0 +1,22 @@
+services:
+  triage-api:
+    build: .
+    environment:
+      MODEL_PROVIDER: mock
+      DATABASE_URL: sqlite:////data/triage.db
+      ARTIFACT_ROOT: /artifacts
+      REPORT_ROOT: /reports
+    ports: ["8000:8000"]
+    volumes:
+      - triage-data:/data
+      - ./artifacts:/artifacts:ro
+      - ./reports:/reports
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+    restart: unless-stopped
+
+volumes:
+  triage-data:
+

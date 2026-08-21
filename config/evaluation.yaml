@@ -1,0 +1,13 @@
+classification:
+  overall_accuracy: 0.88
+critical_categories:
+  product_defect_recall: 0.85
+  automation_defect_precision: 0.85
+unknown:
+  minimum_precision: 0.80
+confidence:
+  high_confidence_accuracy: 0.95
+baseline:
+  overall_accuracy: 1.0
+  maximum_regression: 0.03
+

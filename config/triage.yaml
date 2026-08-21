@@ -1,0 +1,11 @@
+health_checks: []
+artifact_root: ./artifacts
+report_root: ./reports
+max_upload_bytes: 26214400
+flake_indicator:
+  likely: 0.80
+  possible: 0.50
+confidence_bands:
+  high: 0.85
+  medium: 0.65
+

@@ -1,0 +1,9 @@
+weights:
+  deterministic: 0.40
+  historical: 0.25
+  agreement: 0.20
+  model: 0.15
+limitations:
+  - Confidence is an evidence-strength indicator, not a calibrated probability.
+  - High confidence permits an auto-route suggestion, never an autonomous code change.
+

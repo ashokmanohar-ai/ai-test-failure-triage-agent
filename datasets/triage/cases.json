@@ -1,0 +1,962 @@
+[
+  {
+    "id": "automation-01",
+    "evidence_fixture": "fixtures/evidence/automation-01.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-02",
+    "evidence_fixture": "fixtures/evidence/automation-02.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-03",
+    "evidence_fixture": "fixtures/evidence/automation-03.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-04",
+    "evidence_fixture": "fixtures/evidence/automation-04.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-05",
+    "evidence_fixture": "fixtures/evidence/automation-05.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-06",
+    "evidence_fixture": "fixtures/evidence/automation-06.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-07",
+    "evidence_fixture": "fixtures/evidence/automation-07.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-08",
+    "evidence_fixture": "fixtures/evidence/automation-08.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-09",
+    "evidence_fixture": "fixtures/evidence/automation-09.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-10",
+    "evidence_fixture": "fixtures/evidence/automation-10.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-11",
+    "evidence_fixture": "fixtures/evidence/automation-11.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-12",
+    "evidence_fixture": "fixtures/evidence/automation-12.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-13",
+    "evidence_fixture": "fixtures/evidence/automation-13.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-14",
+    "evidence_fixture": "fixtures/evidence/automation-14.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "automation-15",
+    "evidence_fixture": "fixtures/evidence/automation-15.json",
+    "expected_primary_classification": "AUTOMATION_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "locator"
+    ],
+    "tags": [
+      "automation_defect"
+    ]
+  },
+  {
+    "id": "product-01",
+    "evidence_fixture": "fixtures/evidence/product-01.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-02",
+    "evidence_fixture": "fixtures/evidence/product-02.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-03",
+    "evidence_fixture": "fixtures/evidence/product-03.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-04",
+    "evidence_fixture": "fixtures/evidence/product-04.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-05",
+    "evidence_fixture": "fixtures/evidence/product-05.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-06",
+    "evidence_fixture": "fixtures/evidence/product-06.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-07",
+    "evidence_fixture": "fixtures/evidence/product-07.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-08",
+    "evidence_fixture": "fixtures/evidence/product-08.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-09",
+    "evidence_fixture": "fixtures/evidence/product-09.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-10",
+    "evidence_fixture": "fixtures/evidence/product-10.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-11",
+    "evidence_fixture": "fixtures/evidence/product-11.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-12",
+    "evidence_fixture": "fixtures/evidence/product-12.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-13",
+    "evidence_fixture": "fixtures/evidence/product-13.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-14",
+    "evidence_fixture": "fixtures/evidence/product-14.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "product-15",
+    "evidence_fixture": "fixtures/evidence/product-15.json",
+    "expected_primary_classification": "PRODUCT_DEFECT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "assertion detected changed product behaviour"
+    ],
+    "tags": [
+      "product_defect"
+    ]
+  },
+  {
+    "id": "api-01",
+    "evidence_fixture": "fixtures/evidence/api-01.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-02",
+    "evidence_fixture": "fixtures/evidence/api-02.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-03",
+    "evidence_fixture": "fixtures/evidence/api-03.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-04",
+    "evidence_fixture": "fixtures/evidence/api-04.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-05",
+    "evidence_fixture": "fixtures/evidence/api-05.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-06",
+    "evidence_fixture": "fixtures/evidence/api-06.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-07",
+    "evidence_fixture": "fixtures/evidence/api-07.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-08",
+    "evidence_fixture": "fixtures/evidence/api-08.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-09",
+    "evidence_fixture": "fixtures/evidence/api-09.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "api-10",
+    "evidence_fixture": "fixtures/evidence/api-10.json",
+    "expected_primary_classification": "API_BACKEND",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "backend request failed"
+    ],
+    "tags": [
+      "api_backend"
+    ]
+  },
+  {
+    "id": "environment-01",
+    "evidence_fixture": "fixtures/evidence/environment-01.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-02",
+    "evidence_fixture": "fixtures/evidence/environment-02.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-03",
+    "evidence_fixture": "fixtures/evidence/environment-03.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-04",
+    "evidence_fixture": "fixtures/evidence/environment-04.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-05",
+    "evidence_fixture": "fixtures/evidence/environment-05.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-06",
+    "evidence_fixture": "fixtures/evidence/environment-06.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-07",
+    "evidence_fixture": "fixtures/evidence/environment-07.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-08",
+    "evidence_fixture": "fixtures/evidence/environment-08.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-09",
+    "evidence_fixture": "fixtures/evidence/environment-09.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "environment-10",
+    "evidence_fixture": "fixtures/evidence/environment-10.json",
+    "expected_primary_classification": "ENVIRONMENT",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "health check failed"
+    ],
+    "tags": [
+      "environment"
+    ]
+  },
+  {
+    "id": "test-data-01",
+    "evidence_fixture": "fixtures/evidence/test-data-01.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-02",
+    "evidence_fixture": "fixtures/evidence/test-data-02.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-03",
+    "evidence_fixture": "fixtures/evidence/test-data-03.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-04",
+    "evidence_fixture": "fixtures/evidence/test-data-04.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-05",
+    "evidence_fixture": "fixtures/evidence/test-data-05.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-06",
+    "evidence_fixture": "fixtures/evidence/test-data-06.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-07",
+    "evidence_fixture": "fixtures/evidence/test-data-07.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-08",
+    "evidence_fixture": "fixtures/evidence/test-data-08.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-09",
+    "evidence_fixture": "fixtures/evidence/test-data-09.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "test-data-10",
+    "evidence_fixture": "fixtures/evidence/test-data-10.json",
+    "expected_primary_classification": "TEST_DATA",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "data precondition"
+    ],
+    "tags": [
+      "test_data"
+    ]
+  },
+  {
+    "id": "flaky-01",
+    "evidence_fixture": "fixtures/evidence/flaky-01.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-02",
+    "evidence_fixture": "fixtures/evidence/flaky-02.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-03",
+    "evidence_fixture": "fixtures/evidence/flaky-03.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-04",
+    "evidence_fixture": "fixtures/evidence/flaky-04.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-05",
+    "evidence_fixture": "fixtures/evidence/flaky-05.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-06",
+    "evidence_fixture": "fixtures/evidence/flaky-06.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-07",
+    "evidence_fixture": "fixtures/evidence/flaky-07.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-08",
+    "evidence_fixture": "fixtures/evidence/flaky-08.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-09",
+    "evidence_fixture": "fixtures/evidence/flaky-09.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "flaky-10",
+    "evidence_fixture": "fixtures/evidence/flaky-10.json",
+    "expected_primary_classification": "FLAKY_TEST",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "instability signals"
+    ],
+    "tags": [
+      "flaky_test"
+    ]
+  },
+  {
+    "id": "auth-01",
+    "evidence_fixture": "fixtures/evidence/auth-01.json",
+    "expected_primary_classification": "AUTHENTICATION",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "authentication or session evidence"
+    ],
+    "tags": [
+      "authentication"
+    ]
+  },
+  {
+    "id": "auth-02",
+    "evidence_fixture": "fixtures/evidence/auth-02.json",
+    "expected_primary_classification": "AUTHENTICATION",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "authentication or session evidence"
+    ],
+    "tags": [
+      "authentication"
+    ]
+  },
+  {
+    "id": "auth-03",
+    "evidence_fixture": "fixtures/evidence/auth-03.json",
+    "expected_primary_classification": "AUTHENTICATION",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "authentication or session evidence"
+    ],
+    "tags": [
+      "authentication"
+    ]
+  },
+  {
+    "id": "auth-04",
+    "evidence_fixture": "fixtures/evidence/auth-04.json",
+    "expected_primary_classification": "AUTHENTICATION",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "authentication or session evidence"
+    ],
+    "tags": [
+      "authentication"
+    ]
+  },
+  {
+    "id": "auth-05",
+    "evidence_fixture": "fixtures/evidence/auth-05.json",
+    "expected_primary_classification": "AUTHENTICATION",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "authentication or session evidence"
+    ],
+    "tags": [
+      "authentication"
+    ]
+  },
+  {
+    "id": "unknown-01",
+    "evidence_fixture": "fixtures/evidence/unknown-01.json",
+    "expected_primary_classification": "UNKNOWN",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "does not support"
+    ],
+    "tags": [
+      "unknown"
+    ]
+  },
+  {
+    "id": "unknown-02",
+    "evidence_fixture": "fixtures/evidence/unknown-02.json",
+    "expected_primary_classification": "UNKNOWN",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "does not support"
+    ],
+    "tags": [
+      "unknown"
+    ]
+  },
+  {
+    "id": "unknown-03",
+    "evidence_fixture": "fixtures/evidence/unknown-03.json",
+    "expected_primary_classification": "UNKNOWN",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "does not support"
+    ],
+    "tags": [
+      "unknown"
+    ]
+  },
+  {
+    "id": "unknown-04",
+    "evidence_fixture": "fixtures/evidence/unknown-04.json",
+    "expected_primary_classification": "UNKNOWN",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "does not support"
+    ],
+    "tags": [
+      "unknown"
+    ]
+  },
+  {
+    "id": "unknown-05",
+    "evidence_fixture": "fixtures/evidence/unknown-05.json",
+    "expected_primary_classification": "UNKNOWN",
+    "accepted_secondary": [],
+    "expected_root_cause_facts": [
+      "does not support"
+    ],
+    "tags": [
+      "unknown"
+    ]
+  }
+]

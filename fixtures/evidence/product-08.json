@@ -1,0 +1,36 @@
+{
+  "failure": {
+    "failure_id": "FAIL-PROD-08",
+    "test_id": "test-PROD-08",
+    "test_name": "Controlled scenario PROD-08",
+    "suite": "controlled-failures",
+    "status": "FAILED",
+    "error_message": "Expected total 108, received 98",
+    "stack_trace": null,
+    "duration_ms": 5000,
+    "retry_count": 0,
+    "browser": "chromium",
+    "project": null,
+    "environment": "local",
+    "commit_sha": null,
+    "timestamp": "2026-08-21T10:32:00Z"
+  },
+  "screenshot_paths": [],
+  "trace_path": null,
+  "console_errors": [],
+  "network_failures": [],
+  "page_url": null,
+  "environment_health": [],
+  "recent_changes": [
+    {
+      "path": "src/domain/pricing8.py",
+      "change_type": "MODIFIED",
+      "commit_sha": null,
+      "summary": null
+    }
+  ],
+  "historical_failures": [],
+  "deterministic_findings": [],
+  "timeline": [],
+  "metadata": {}
+}

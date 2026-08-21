@@ -1,0 +1,54 @@
+name: Controlled failure triage
+
+on:
+  workflow_dispatch:
+    inputs:
+      failure_profile:
+        description: Controlled profile
+        type: choice
+        required: true
+        default: api_500
+        options: [api_500, locator_change, product_defect, environment_down, invalid_test_data, auth_expired, slow_endpoint]
+
+permissions:
+  contents: read
+
+jobs:
+  controlled-failure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: playwright-demo/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci
+        working-directory: playwright-demo
+      - run: npx playwright install --with-deps chromium
+        working-directory: playwright-demo
+      - id: playwright
+        continue-on-error: true
+        env:
+          FAILURE_PROFILE: ${{ inputs.failure_profile }}
+        run: npm test
+        working-directory: playwright-demo
+      - if: always()
+        run: python -m pip install -e .
+      - if: always()
+        run: triage-agent analyze --artifact playwright-demo/playwright-report.json --playwright --provider mock
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: controlled-failure-and-triage
+          path: |
+            playwright-demo/playwright-report.json
+            playwright-demo/test-results/
+            reports/
+      - name: Preserve original test outcome
+        if: always() && steps.playwright.outcome == 'failure'
+        run: exit 1
+

@@ -1,0 +1,45 @@
+{
+  "failure": {
+    "failure_id": "FAIL-AUTO-09",
+    "test_id": "test-AUTO-09",
+    "test_name": "Controlled scenario AUTO-09",
+    "suite": "controlled-failures",
+    "status": "FAILED",
+    "error_message": "locator('button:has-text(Checkout)') resolved to 0 elements",
+    "stack_trace": null,
+    "duration_ms": 5000,
+    "retry_count": 0,
+    "browser": "chromium",
+    "project": null,
+    "environment": "local",
+    "commit_sha": null,
+    "timestamp": "2026-08-21T10:32:00Z"
+  },
+  "screenshot_paths": [],
+  "trace_path": null,
+  "console_errors": [],
+  "network_failures": [],
+  "page_url": null,
+  "environment_health": [
+    {
+      "name": "app",
+      "url": null,
+      "status": "UP",
+      "latency_ms": null,
+      "detail": null,
+      "timestamp": null
+    }
+  ],
+  "recent_changes": [
+    {
+      "path": "src/components/CheckoutButton9.tsx",
+      "change_type": "MODIFIED",
+      "commit_sha": null,
+      "summary": null
+    }
+  ],
+  "historical_failures": [],
+  "deterministic_findings": [],
+  "timeline": [],
+  "metadata": {}
+}
