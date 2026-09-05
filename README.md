@@ -13,6 +13,19 @@ recommend evidence-based next actions.
 > Evidence first, AI second. The framework never turns a failed test green,
 > changes automation autonomously, or presents model confidence as truth.
 
+## Recruiter quick tour
+
+> **60-second decision:** this repository proves evidence-driven AI-assisted failure triage while preserving failed-test status, human ownership, and explicit uncertainty.
+
+| Recruiter signal | Evidence in this repository |
+| --- | --- |
+| Diagnostic depth | Playwright traces, screenshots, console, network, environment, history, and Git-change evidence are correlated before classification |
+| Evaluation discipline | 80 sanitized cases with precision, recall, F1, confusion matrix, calibration, and regression gates |
+| Safety and governance | Deterministic checks first, PII/secret masking, unsupported-claim validation, `UNKNOWN` handling, and no autonomous code changes |
+| Interview path | [Architecture](docs/architecture.md) → [evidence model](docs/evidence-model.md) → [2- and 5-minute walkthrough](docs/interview-walkthrough.md) |
+
+**Five-minute proof:** run the offline mock mode, analyze a controlled Playwright fixture, and review the evidence for and against the generated classification.
+
 ## Business problem
 
 Large suites produce more failures than engineers can investigate promptly.
