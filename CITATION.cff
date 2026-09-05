@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it using the metadata below."
+title: "AI Test Failure Triage with Agents: From Raw Test Failures to Root-Cause Intelligence"
+type: article
+authors:
+  - family-names: Manohar
+    given-names: Ashok Kumar
+version: 1.0.0
+date-released: 2026-09-05
+url: "https://github.com/ashokmanohar-ai/ai-test-failure-triage-agent/blob/main/WHITEPAPER.md"
+repository-code: "https://github.com/ashokmanohar-ai/ai-test-failure-triage-agent"
+license: MIT
+keywords:
+  - AI Test Failure Triage
+  - Quality Engineering
+  - AI Quality Engineering
+  - Root Cause Analysis
+  - Test Automation
+  - Playwright
+  - Flaky Test Detection
+  - Failure Classification
+  - Agentic AI
+  - LLM Evaluation
+  - CI/CD
+  - Observability
+  - Regression Testing
+  - Human-in-the-Loop
+abstract: >-
+  An evidence-driven Quality Engineering framework for using AI agents to
+  classify and explain automated test failures while preserving deterministic
+  evidence and human ownership. The work covers Playwright artifacts,
+  deterministic diagnostics, historical signatures, change correlation,
+  failure taxonomy, structured AI triage, explicit uncertainty, flaky-test
+  analysis, unsupported-claim validation, calibration, security and privacy,
+  observability, CI/CD integration, evaluation metrics and production feedback
+  into durable root-cause intelligence.
